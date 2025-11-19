@@ -7,5 +7,5 @@ abstract class CardUnit(
 ) : Comparator<CardUnit> {
     
     fun compareTo(other: CardUnit): Int = 
-        unitNumber.compareTo(other.unitNumber)  // unitNumber() 아니라 unitNumber
+        unitNumber.compareTo(other.unitNumber)
 }
